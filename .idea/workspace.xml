@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="542bb27c-3f22-4a48-b854-69ee9c74223c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalDynamicElementsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalWaitsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalDynamicElementsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalWaitsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalCheckBoxPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalRadioButtonsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalCheckBoxTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalRadioButtonsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TechGlobalDynamicElementsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalDynamicElementsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TechGlobalWaitsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalWaitsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Waiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Waiter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,19 +40,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Notification.DisplayName-DoNotAsk-Download Shared Index": "Shared indexes available",
+    "Notification.DoNotAsk-Download Shared Index": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.TechGlobalWaitsTest.validateRedBox">
-    <configuration name="TechGlobalDynamicElementsTest.dynamicElementsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="TestNG.TechGlobalCheckBoxTest.validateCheckboxes2">
+    <configuration name="TechGlobalCheckBoxTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng_framework_5" />
       <extension name="coverage">
         <pattern>
@@ -61,8 +63,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="scripts" />
-      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalDynamicElementsTest" />
-      <option name="METHOD_NAME" value="dynamicElementsTest" />
+      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalCheckBoxTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TechGlobalCheckBoxTest.validateCheckboxes" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testng_framework_5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scripts" />
+      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalCheckBoxTest" />
+      <option name="METHOD_NAME" value="validateCheckboxes" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -70,7 +89,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TechGlobalFrontendTestingHomeTest.validateFrontendTestingCards (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TechGlobalCheckBoxTest.validateCheckboxes2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng_framework_5" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +98,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="scripts" />
-      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalFrontendTestingHomeTest" />
-      <option name="METHOD_NAME" value="validateFrontendTestingCards" />
+      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalCheckBoxTest" />
+      <option name="METHOD_NAME" value="validateCheckboxes2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -106,7 +125,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TechGlobalFrontendTestingHomeTest.validateFrontendTestingCards" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TechGlobalRadioButtonsTest.languageRadioButtons" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng_framework_5" />
       <extension name="coverage">
         <pattern>
@@ -115,8 +134,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="scripts" />
-      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalFrontendTestingHomeTest" />
-      <option name="METHOD_NAME" value="validateFrontendTestingCards" />
+      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalRadioButtonsTest" />
+      <option name="METHOD_NAME" value="languageRadioButtons" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -124,7 +143,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TechGlobalFrontendTestingHomeTest.validateFrontendTestingURL" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TechGlobalRadioButtonsTest.toolsRadioButton" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng_framework_5" />
       <extension name="coverage">
         <pattern>
@@ -133,26 +152,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="scripts" />
-      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalFrontendTestingHomeTest" />
-      <option name="METHOD_NAME" value="validateFrontendTestingURL" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TechGlobalWaitsTest.validateRedBox" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testng_framework_5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="scripts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="scripts" />
-      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalWaitsTest" />
-      <option name="METHOD_NAME" value="validateRedBox" />
+      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalRadioButtonsTest" />
+      <option name="METHOD_NAME" value="toolsRadioButton" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -162,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TechGlobalWaitsTest.validateRedBox" />
-        <item itemvalue="TestNG.TechGlobalDynamicElementsTest.dynamicElementsTest" />
-        <item itemvalue="TestNG.TechGlobalFrontendTestingHomeTest.validateFrontendTestingURL" />
-        <item itemvalue="TestNG.TechGlobalFrontendTestingHomeTest.validateFrontendTestingCards (1)" />
-        <item itemvalue="TestNG.TechGlobalFrontendTestingHomeTest.validateFrontendTestingCards" />
+        <item itemvalue="TestNG.TechGlobalCheckBoxTest.validateCheckboxes2" />
+        <item itemvalue="TestNG.TechGlobalCheckBoxTest.validateCheckboxes" />
+        <item itemvalue="TestNG.TechGlobalCheckBoxTest" />
+        <item itemvalue="TestNG.TechGlobalRadioButtonsTest.languageRadioButtons" />
+        <item itemvalue="TestNG.TechGlobalRadioButtonsTest.toolsRadioButton" />
       </list>
     </recent_temporary>
   </component>
