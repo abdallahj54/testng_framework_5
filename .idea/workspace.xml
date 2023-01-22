@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="542bb27c-3f22-4a48-b854-69ee9c74223c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalDropdownsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalMultipleWindowsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalDropdownsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalMultipleWindowsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/DropdownHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/WindowHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smoke.xml" beforeDir="false" afterPath="$PROJECT_DIR$/smoke.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression.xml" beforeDir="false" afterPath="$PROJECT_DIR$/regression.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalLogoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalLogoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +45,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;Notification.DisplayName-DoNotAsk-Download Shared Index&quot;: &quot;Shared indexes available&quot;,
     &quot;Notification.DoNotAsk-Download Shared Index&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -49,7 +58,7 @@
   }
 }</component>
   <component name="RunManager" selected="TestNG./Users/abdallahjaber/IdeaProjects/testng_framework_5/regression.xml">
-    <configuration name="TechGlobalCheckBoxTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TechGlobalDropdownsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng_framework_5" />
       <extension name="coverage">
         <pattern>
@@ -58,7 +67,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="scripts" />
-      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalCheckBoxTest" />
+      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalDropdownsTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -66,7 +75,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TechGlobalLogoTest.validateTechGlobalLogo" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TechGlobalMultipleWindowsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng_framework_5" />
       <extension name="coverage">
         <pattern>
@@ -75,8 +84,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="scripts" />
-      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalLogoTest" />
-      <option name="METHOD_NAME" value="validateTechGlobalLogo" />
+      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalMultipleWindowsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TechGlobalMultipleWindowsTest.validateLinkURLs" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testng_framework_5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scripts" />
+      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalMultipleWindowsTest" />
+      <option name="METHOD_NAME" value="validateLinkURLs" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -84,7 +110,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TechGlobalRadioButtonsTest.toolsRadioButton" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TechGlobalMultipleWindowsTest.validateTheAppleLink" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng_framework_5" />
       <extension name="coverage">
         <pattern>
@@ -93,8 +119,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="scripts" />
-      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalRadioButtonsTest" />
-      <option name="METHOD_NAME" value="toolsRadioButton" />
+      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalMultipleWindowsTest" />
+      <option name="METHOD_NAME" value="validateTheAppleLink" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -112,23 +138,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/abdallahjaber/IdeaProjects/testng_framework_5/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testng_framework_5" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./Users/abdallahjaber/IdeaProjects/testng_framework_5/regression.xml" />
-        <item itemvalue="TestNG./Users/abdallahjaber/IdeaProjects/testng_framework_5/testng.xml" />
-        <item itemvalue="TestNG.TechGlobalCheckBoxTest" />
-        <item itemvalue="TestNG.TechGlobalLogoTest.validateTechGlobalLogo" />
-        <item itemvalue="TestNG.TechGlobalRadioButtonsTest.toolsRadioButton" />
+        <item itemvalue="TestNG.TechGlobalMultipleWindowsTest" />
+        <item itemvalue="TestNG.TechGlobalMultipleWindowsTest.validateTheAppleLink" />
+        <item itemvalue="TestNG.TechGlobalMultipleWindowsTest.validateLinkURLs" />
+        <item itemvalue="TestNG.TechGlobalDropdownsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -153,5 +169,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
