@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="542bb27c-3f22-4a48-b854-69ee9c74223c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalAlertsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalDynamicTablesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalAlertsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalDynamicTablesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/AlertHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smoketest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit_knowledge/_01_Annotations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng_knowledge/_05_SoftAssertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng_knowledge/_06_DataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng_knowledge/_07_Groups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testng_knowledge/_04_TestDescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testng_knowledge/_04_TestDescription.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,18 +57,33 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.TechGlobalDynamicTablesTest.popupValidation">
-    <configuration name="TechGlobalAlertsTest.confirmationAlert" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG./Users/abdallahjaber/IdeaProjects/testng_framework_5/integration.xml">
+    <configuration name="_01_Annotations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testng_framework_5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scripts.*" />
+          <option name="PATTERN" value="junit_knowledge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="scripts" />
-      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalAlertsTest" />
-      <option name="METHOD_NAME" value="confirmationAlert" />
+      <option name="PACKAGE_NAME" value="junit_knowledge" />
+      <option name="MAIN_CLASS_NAME" value="junit_knowledge._01_Annotations" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_06_DataProvider.validateInvalidUsernameMessage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testng_framework_5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testng_knowledge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testng_knowledge" />
+      <option name="MAIN_CLASS_NAME" value="testng_knowledge._06_DataProvider" />
+      <option name="METHOD_NAME" value="validateInvalidUsernameMessage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -72,17 +91,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TechGlobalAlertsTest.promptAlert" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="_06_DataProvider.validateSearchResult" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng_framework_5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scripts.*" />
+          <option name="PATTERN" value="testng_knowledge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="scripts" />
-      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalAlertsTest" />
-      <option name="METHOD_NAME" value="promptAlert" />
+      <option name="PACKAGE_NAME" value="testng_knowledge" />
+      <option name="MAIN_CLASS_NAME" value="testng_knowledge._06_DataProvider" />
+      <option name="METHOD_NAME" value="validateSearchResult" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -90,45 +109,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TechGlobalAlertsTest.warningAlert" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/abdallahjaber/IdeaProjects/testng_framework_5/integration.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng_framework_5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="scripts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="scripts" />
-      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalAlertsTest" />
-      <option name="METHOD_NAME" value="warningAlert" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/integration.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TechGlobalDynamicTablesTest.popupValidation" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/abdallahjaber/IdeaProjects/testng_framework_5/smoketest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng_framework_5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="scripts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="scripts" />
-      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalDynamicTablesTest" />
-      <option name="METHOD_NAME" value="popupValidation" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/abdallahjaber/IdeaProjects/testng_framework_5/regression.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testng_framework_5" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/regression.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/smoketest.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -138,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TechGlobalDynamicTablesTest.popupValidation" />
-        <item itemvalue="TestNG.TechGlobalAlertsTest.promptAlert" />
-        <item itemvalue="TestNG.TechGlobalAlertsTest.confirmationAlert" />
-        <item itemvalue="TestNG.TechGlobalAlertsTest.warningAlert" />
-        <item itemvalue="TestNG./Users/abdallahjaber/IdeaProjects/testng_framework_5/regression.xml" />
+        <item itemvalue="TestNG./Users/abdallahjaber/IdeaProjects/testng_framework_5/integration.xml" />
+        <item itemvalue="TestNG./Users/abdallahjaber/IdeaProjects/testng_framework_5/smoketest.xml" />
+        <item itemvalue="TestNG._06_DataProvider.validateInvalidUsernameMessage" />
+        <item itemvalue="TestNG._06_DataProvider.validateSearchResult" />
+        <item itemvalue="JUnit._01_Annotations" />
       </list>
     </recent_temporary>
   </component>
