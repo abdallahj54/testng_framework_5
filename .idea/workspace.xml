@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="542bb27c-3f22-4a48-b854-69ee9c74223c" name="Changes" comment="" />
+    <list default="true" id="542bb27c-3f22-4a48-b854-69ee9c74223c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/hello.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalFileDownloadPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalFileUploadPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalIFramesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalStaticTablesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalFileDownloadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalFileUploadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalIFramesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalStaticTablesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TableData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalBase.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,35 +58,18 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG./Users/abdallahjaber/IdeaProjects/testng_framework_5/parameterization.xml">
-    <configuration name="_08_Parallel_Test" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TechGlobalStaticTablesTest.validateTable">
+    <configuration name="TechGlobalFileDownloadTest.validateDownload" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng_framework_5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testng_knowledge.*" />
+          <option name="PATTERN" value="scripts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testng_knowledge" />
-      <option name="MAIN_CLASS_NAME" value="testng_knowledge._08_Parallel_Test" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_08_Parallel_Test.method1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testng_framework_5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testng_knowledge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testng_knowledge" />
-      <option name="MAIN_CLASS_NAME" value="testng_knowledge._08_Parallel_Test" />
-      <option name="METHOD_NAME" value="method1" />
+      <option name="PACKAGE_NAME" value="scripts" />
+      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalFileDownloadTest" />
+      <option name="METHOD_NAME" value="validateDownload" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -81,30 +77,72 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/abdallahjaber/IdeaProjects/testng_framework_5/integration.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TechGlobalFileDownloadTest.validateFileDownload" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng_framework_5" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/integration.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scripts" />
+      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalFileDownloadTest" />
+      <option name="METHOD_NAME" value="validateFileDownload" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/abdallahjaber/IdeaProjects/testng_framework_5/parallel_methods.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TechGlobalStaticTablesTest.validateRow" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng_framework_5" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/parallel_methods.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scripts" />
+      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalStaticTablesTest" />
+      <option name="METHOD_NAME" value="validateRow" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/abdallahjaber/IdeaProjects/testng_framework_5/parameterization.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TechGlobalStaticTablesTest.validateStaticTables" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng_framework_5" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/parameterization.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scripts" />
+      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalStaticTablesTest" />
+      <option name="METHOD_NAME" value="validateStaticTables" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TechGlobalStaticTablesTest.validateTable" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testng_framework_5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scripts" />
+      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalStaticTablesTest" />
+      <option name="METHOD_NAME" value="validateTable" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -113,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/abdallahjaber/IdeaProjects/testng_framework_5/parameterization.xml" />
-        <item itemvalue="TestNG./Users/abdallahjaber/IdeaProjects/testng_framework_5/parallel_methods.xml" />
-        <item itemvalue="TestNG._08_Parallel_Test" />
-        <item itemvalue="TestNG._08_Parallel_Test.method1" />
-        <item itemvalue="TestNG./Users/abdallahjaber/IdeaProjects/testng_framework_5/integration.xml" />
+        <item itemvalue="TestNG.TechGlobalStaticTablesTest.validateTable" />
+        <item itemvalue="TestNG.TechGlobalStaticTablesTest.validateRow" />
+        <item itemvalue="TestNG.TechGlobalStaticTablesTest.validateStaticTables" />
+        <item itemvalue="TestNG.TechGlobalFileDownloadTest.validateFileDownload" />
+        <item itemvalue="TestNG.TechGlobalFileDownloadTest.validateDownload" />
       </list>
     </recent_temporary>
   </component>
