@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="542bb27c-3f22-4a48-b854-69ee9c74223c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/global_configs.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/globals.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parallel_classes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parallel_methods.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parameterization.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testng_knowledge/_08_Parallel_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testng_knowledge/_09_Parallel_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testng_knowledge/_10_Parameterization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
-    </list>
+    <list default="true" id="542bb27c-3f22-4a48-b854-69ee9c74223c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

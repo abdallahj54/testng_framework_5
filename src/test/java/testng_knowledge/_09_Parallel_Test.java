@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 import utilities.Waiter;
 
 public class _09_Parallel_Test {
-
+/*
     @Test
     public void method1(){
         Waiter.pause(5);
@@ -25,4 +25,6 @@ public class _09_Parallel_Test {
         System.out.println("This is method3 in the 09 class");
         System.out.println("Thread = " + Thread.currentThread().getId());
     }
+
+ */
 }
