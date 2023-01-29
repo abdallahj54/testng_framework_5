@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="542bb27c-3f22-4a48-b854-69ee9c74223c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/hello.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalFileDownloadPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalFileUploadPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalIFramesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalStaticTablesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalFileDownloadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalFileUploadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalIFramesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalStaticTablesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TableData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalCalendarPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalSortableTablesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalCalendarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalSortableTablesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TextHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TechGlobalDynamicTablesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalDynamicTablesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TechGlobalStaticTablesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalStaticTablesPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalDynamicTablesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalDynamicTablesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalStaticTablesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalStaticTablesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +57,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.TechGlobalStaticTablesTest.validateTable">
-    <configuration name="TechGlobalFileDownloadTest.validateDownload" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TechGlobalSortableTablesTest.validateSortDescByPrice">
+    <configuration name="TechGlobalCalendarTest.validateDatePicker" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng_framework_5" />
       <extension name="coverage">
         <pattern>
@@ -68,8 +67,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="scripts" />
-      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalFileDownloadTest" />
-      <option name="METHOD_NAME" value="validateDownload" />
+      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalCalendarTest" />
+      <option name="METHOD_NAME" value="validateDatePicker" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -77,7 +76,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TechGlobalFileDownloadTest.validateFileDownload" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TechGlobalSortableTablesTest.validateSortAscByPrice" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng_framework_5" />
       <extension name="coverage">
         <pattern>
@@ -86,8 +85,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="scripts" />
-      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalFileDownloadTest" />
-      <option name="METHOD_NAME" value="validateFileDownload" />
+      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalSortableTablesTest" />
+      <option name="METHOD_NAME" value="validateSortAscByPrice" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -95,7 +94,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TechGlobalStaticTablesTest.validateRow" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TechGlobalSortableTablesTest.validateSortAscByQuantity" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng_framework_5" />
       <extension name="coverage">
         <pattern>
@@ -104,8 +103,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="scripts" />
-      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalStaticTablesTest" />
-      <option name="METHOD_NAME" value="validateRow" />
+      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalSortableTablesTest" />
+      <option name="METHOD_NAME" value="validateSortAscByQuantity" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -113,7 +112,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TechGlobalStaticTablesTest.validateStaticTables" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TechGlobalSortableTablesTest.validateSortDescByPrice" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng_framework_5" />
       <extension name="coverage">
         <pattern>
@@ -122,8 +121,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="scripts" />
-      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalStaticTablesTest" />
-      <option name="METHOD_NAME" value="validateStaticTables" />
+      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalSortableTablesTest" />
+      <option name="METHOD_NAME" value="validateSortDescByPrice" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -131,7 +130,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TechGlobalStaticTablesTest.validateTable" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TechGlobalSortableTablesTest.validateSortDescByQuantity" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng_framework_5" />
       <extension name="coverage">
         <pattern>
@@ -140,8 +139,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="scripts" />
-      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalStaticTablesTest" />
-      <option name="METHOD_NAME" value="validateTable" />
+      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalSortableTablesTest" />
+      <option name="METHOD_NAME" value="validateSortDescByQuantity" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -151,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TechGlobalStaticTablesTest.validateTable" />
-        <item itemvalue="TestNG.TechGlobalStaticTablesTest.validateRow" />
-        <item itemvalue="TestNG.TechGlobalStaticTablesTest.validateStaticTables" />
-        <item itemvalue="TestNG.TechGlobalFileDownloadTest.validateFileDownload" />
-        <item itemvalue="TestNG.TechGlobalFileDownloadTest.validateDownload" />
+        <item itemvalue="TestNG.TechGlobalSortableTablesTest.validateSortDescByPrice" />
+        <item itemvalue="TestNG.TechGlobalSortableTablesTest.validateSortAscByPrice" />
+        <item itemvalue="TestNG.TechGlobalSortableTablesTest.validateSortDescByQuantity" />
+        <item itemvalue="TestNG.TechGlobalSortableTablesTest.validateSortAscByQuantity" />
+        <item itemvalue="TestNG.TechGlobalCalendarTest.validateDatePicker" />
       </list>
     </recent_temporary>
   </component>
