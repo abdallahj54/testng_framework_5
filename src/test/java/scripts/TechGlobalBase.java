@@ -1,6 +1,7 @@
 package scripts;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.asserts.SoftAssert;
@@ -9,8 +10,8 @@ import utilities.ConfigReader;
 import utilities.Driver;
 
 public class TechGlobalBase {
-    SoftAssert softAssert;
     WebDriver driver;
+    SoftAssert softAssert;
     TechGlobalBasePage techGlobalBasePage;
     TechGlobalFrontendTestingHomePage techGlobalFrontendTestingHomePage;
     TechGlobalDynamicElementsPage techGlobalDynamicElementsPage;
@@ -27,18 +28,21 @@ public class TechGlobalBase {
     TechGlobalStaticTablesPage techGlobalStaticTablesPage;
     TechGlobalCalendarPage techGlobalCalendarPage;
     TechGlobalSortableTablesPage techGlobalSortableTablesPage;
-    @BeforeMethod
-    public void setup(){
-       driver = Driver.getDriver();
-       softAssert = new SoftAssert();
-       driver.get(ConfigReader.getProperty("appURL"));
+    TechGlobalActionsPage techGlobalActionsPage;
+    Actions actions;
 
-       techGlobalBasePage = new TechGlobalBasePage();
+    @BeforeMethod
+    public void setup() {
+        driver = Driver.getDriver();
+        softAssert = new SoftAssert();
+        driver.get(ConfigReader.getProperty("appURL"));
+
+        techGlobalBasePage = new TechGlobalBasePage();
     }
 
     @AfterMethod
-    public void teardown(){
-        //We will quit driver and do all clean-ups
+    public void teardown() {
+        //We will quit driver and do other proper clean ups
         softAssert.assertAll();
         Driver.quitDriver();
     }
